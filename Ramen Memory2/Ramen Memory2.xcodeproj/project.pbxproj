@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A467A3324E7D2FF00EBFEA7 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A467A3224E7D2FF00EBFEA7 /* ImagePicker.swift */; };
+		1A96662624D6864B001FE55B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96662524D6864B001FE55B /* RatingView.swift */; };
+		1A96662824D68D5F001FE55B /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96662724D68D5F001FE55B /* EmojiRatingView.swift */; };
+		1A9CBFF824D5BB990097EE24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CBFF724D5BB990097EE24 /* AppDelegate.swift */; };
+		1A9CBFFA24D5BB990097EE24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CBFF924D5BB990097EE24 /* SceneDelegate.swift */; };
+		1A9CBFFD24D5BB990097EE24 /* Ramen_Memory2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CBFFB24D5BB990097EE24 /* Ramen_Memory2.xcdatamodeld */; };
+		1A9CBFFF24D5BB990097EE24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CBFFE24D5BB990097EE24 /* ContentView.swift */; };
+		1A9CC00124D5BB9A0097EE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CC00024D5BB9A0097EE24 /* Assets.xcassets */; };
+		1A9CC00424D5BB9A0097EE24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CC00324D5BB9A0097EE24 /* Preview Assets.xcassets */; };
+		1A9CC00724D5BB9A0097EE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9CC00524D5BB9A0097EE24 /* LaunchScreen.storyboard */; };
+		1A9CC00F24D5C4F30097EE24 /* AddRamenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CC00E24D5C4F30097EE24 /* AddRamenView.swift */; };
+		1AA7542C24D6F07800FB654E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7542B24D6F07800FB654E /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A467A3224E7D2FF00EBFEA7 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1A96662524D6864B001FE55B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		1A96662724D68D5F001FE55B /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		1A9CBFF424D5BB990097EE24 /* Ramen Memory2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramen Memory2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9CBFF724D5BB990097EE24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A9CBFF924D5BB990097EE24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A9CBFFC24D5BB990097EE24 /* Ramen_Memory2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ramen_Memory2.xcdatamodel; sourceTree = "<group>"; };
+		1A9CBFFE24D5BB990097EE24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A9CC00024D5BB9A0097EE24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A9CC00324D5BB9A0097EE24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A9CC00624D5BB9A0097EE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A9CC00824D5BB9A0097EE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9CC00E24D5C4F30097EE24 /* AddRamenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRamenView.swift; sourceTree = "<group>"; };
+		1AA7542B24D6F07800FB654E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9CBFF124D5BB990097EE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9CBFEB24D5BB990097EE24 = {
+			isa = PBXGroup;
+			children = (
+				1A9CBFF624D5BB990097EE24 /* Ramen Memory2 */,
+				1A9CBFF524D5BB990097EE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9CBFF524D5BB990097EE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CBFF424D5BB990097EE24 /* Ramen Memory2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9CBFF624D5BB990097EE24 /* Ramen Memory2 */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CBFF724D5BB990097EE24 /* AppDelegate.swift */,
+				1A9CBFF924D5BB990097EE24 /* SceneDelegate.swift */,
+				1A9CBFFE24D5BB990097EE24 /* ContentView.swift */,
+				1A467A3224E7D2FF00EBFEA7 /* ImagePicker.swift */,
+				1A9CC00E24D5C4F30097EE24 /* AddRamenView.swift */,
+				1AA7542B24D6F07800FB654E /* DetailView.swift */,
+				1A96662524D6864B001FE55B /* RatingView.swift */,
+				1A96662724D68D5F001FE55B /* EmojiRatingView.swift */,
+				1A9CC00024D5BB9A0097EE24 /* Assets.xcassets */,
+				1A9CC00524D5BB9A0097EE24 /* LaunchScreen.storyboard */,
+				1A9CC00824D5BB9A0097EE24 /* Info.plist */,
+				1A9CBFFB24D5BB990097EE24 /* Ramen_Memory2.xcdatamodeld */,
+				1A9CC00224D5BB9A0097EE24 /* Preview Content */,
+			);
+			path = "Ramen Memory2";
+			sourceTree = "<group>";
+		};
+		1A9CC00224D5BB9A0097EE24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CC00324D5BB9A0097EE24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9CBFF324D5BB990097EE24 /* Ramen Memory2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9CC00B24D5BB9A0097EE24 /* Build configuration list for PBXNativeTarget "Ramen Memory2" */;
+			buildPhases = (
+				1A9CBFF024D5BB990097EE24 /* Sources */,
+				1A9CBFF124D5BB990097EE24 /* Frameworks */,
+				1A9CBFF224D5BB990097EE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ramen Memory2";
+			productName = "Ramen Memory2";
+			productReference = 1A9CBFF424D5BB990097EE24 /* Ramen Memory2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9CBFEC24D5BB990097EE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Yusuke Tomatsu";
+				TargetAttributes = {
+					1A9CBFF324D5BB990097EE24 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 1A9CBFEF24D5BB990097EE24 /* Build configuration list for PBXProject "Ramen Memory2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A9CBFEB24D5BB990097EE24;
+			productRefGroup = 1A9CBFF524D5BB990097EE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9CBFF324D5BB990097EE24 /* Ramen Memory2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9CBFF224D5BB990097EE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9CC00724D5BB9A0097EE24 /* LaunchScreen.storyboard in Resources */,
+				1A9CC00424D5BB9A0097EE24 /* Preview Assets.xcassets in Resources */,
+				1A9CC00124D5BB9A0097EE24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9CBFF024D5BB990097EE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9CBFFD24D5BB990097EE24 /* Ramen_Memory2.xcdatamodeld in Sources */,
+				1AA7542C24D6F07800FB654E /* DetailView.swift in Sources */,
+				1A9CBFF824D5BB990097EE24 /* AppDelegate.swift in Sources */,
+				1A467A3324E7D2FF00EBFEA7 /* ImagePicker.swift in Sources */,
+				1A96662824D68D5F001FE55B /* EmojiRatingView.swift in Sources */,
+				1A9CC00F24D5C4F30097EE24 /* AddRamenView.swift in Sources */,
+				1A96662624D6864B001FE55B /* RatingView.swift in Sources */,
+				1A9CBFFF24D5BB990097EE24 /* ContentView.swift in Sources */,
+				1A9CBFFA24D5BB990097EE24 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A9CC00524D5BB9A0097EE24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9CC00624D5BB9A0097EE24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9CC00924D5BB9A0097EE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A9CC00A24D5BB9A0097EE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A9CC00C24D5BB9A0097EE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ramen Memory2/Preview Content\"";
+				DEVELOPMENT_TEAM = URB8M8BK5S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ramen Memory2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yusuke.Ramen-Memory2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A9CC00D24D5BB9A0097EE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ramen Memory2/Preview Content\"";
+				DEVELOPMENT_TEAM = URB8M8BK5S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ramen Memory2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yusuke.Ramen-Memory2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9CBFEF24D5BB990097EE24 /* Build configuration list for PBXProject "Ramen Memory2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9CC00924D5BB9A0097EE24 /* Debug */,
+				1A9CC00A24D5BB9A0097EE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9CC00B24D5BB9A0097EE24 /* Build configuration list for PBXNativeTarget "Ramen Memory2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9CC00C24D5BB9A0097EE24 /* Debug */,
+				1A9CC00D24D5BB9A0097EE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A9CBFFB24D5BB990097EE24 /* Ramen_Memory2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A9CBFFC24D5BB990097EE24 /* Ramen_Memory2.xcdatamodel */,
+			);
+			currentVersion = 1A9CBFFC24D5BB990097EE24 /* Ramen_Memory2.xcdatamodel */;
+			path = Ramen_Memory2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A9CBFEC24D5BB990097EE24 /* Project object */;
+}
